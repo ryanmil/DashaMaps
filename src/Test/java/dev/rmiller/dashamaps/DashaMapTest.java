@@ -12,7 +12,7 @@ public class DashaMapTest {
 
     @Before
     public void setup() {
-        theMap = new DashaMap();
+        theMap = new DashaMap(HashFuntions::hashFunctionThree);
     }
 
     @Test
@@ -52,6 +52,8 @@ public class DashaMapTest {
         theMap.put("yep", 1);
         theMap.put("yes", 4);
         theMap.put("aye", -12);
+        theMap.put("yos", 4);
+        theMap.put("yas", 4);
 
         Assert.assertEquals(3, theMap.size());
 

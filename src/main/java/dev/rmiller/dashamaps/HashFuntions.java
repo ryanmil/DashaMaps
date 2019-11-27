@@ -21,7 +21,7 @@ public class HashFuntions {
         if (key.length() > 1) {
             int secondDigit = Character.toLowerCase(key.charAt(0)) - 'a';
             int firstDigit  = Character.toLowerCase(key.charAt(1)) - 'a';
-            return (secondDigit * 26) + firstDigit;
+            return  secondDigit + firstDigit;
         } else {
             return hashFunctionOne(key);
         }

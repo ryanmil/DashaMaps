@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9710c1ec-6c55-4be5-a39a-e83d37ebe42d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_rc_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashamaps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/dev/rmiller/dashamaps/DashaMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rmiller/dashamaps/DashaMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rmiller/dashamaps/HashFuntions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rmiller/dashamaps/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/dev/rmiller/dashamaps/TestWordList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DashaMaps.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/dev/rmiller/dashamaps/DashaMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/dev/rmiller/dashamaps/DashaMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rmiller/dashamaps/HashFuntions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rmiller/dashamaps/HashFuntions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/rmiller/dashamaps/DashaMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/rmiller/dashamaps/DashaMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/rmiller/dashamaps/HashFuntions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/rmiller/dashamaps/HashFuntions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dev/rmiller/dashamaps/DashaMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dev/rmiller/dashamaps/DashaMapTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DashaMapTest">
+  <component name="RunManager" selected="JUnit.TestWordList.testRead">
     <configuration name="DashaMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dashamaps" />
       <extension name="coverage">
@@ -131,22 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashaMapTest.put" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dashamaps" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.rmiller.dashamaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.rmiller.dashamaps" />
-      <option name="MAIN_CLASS_NAME" value="dev.rmiller.dashamaps.DashaMapTest" />
-      <option name="METHOD_NAME" value="put" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DashaMapTest.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dashamaps" />
       <extension name="coverage">
@@ -158,6 +131,22 @@
       <option name="PACKAGE_NAME" value="dev.rmiller.dashamaps" />
       <option name="MAIN_CLASS_NAME" value="dev.rmiller.dashamaps.DashaMapTest" />
       <option name="METHOD_NAME" value="size" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWordList.testRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dashamaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.rmiller.dashamaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.rmiller.dashamaps" />
+      <option name="MAIN_CLASS_NAME" value="dev.rmiller.dashamaps.TestWordList" />
+      <option name="METHOD_NAME" value="testRead" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DashaMapTest" />
+        <item itemvalue="JUnit.TestWordList.testRead" />
         <item itemvalue="JUnit.DashaMapTest.size" />
+        <item itemvalue="JUnit.DashaMapTest" />
         <item itemvalue="JUnit.DashaMapTest.delete" />
         <item itemvalue="JUnit.DashaMapTest.get" />
-        <item itemvalue="JUnit.DashaMapTest.put" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +198,7 @@
       <workItem from="1574626306646" duration="57000" />
       <workItem from="1574626369341" duration="9396000" />
       <workItem from="1574716603171" duration="334000" />
-      <workItem from="1574716957253" duration="14790000" />
+      <workItem from="1574716957253" duration="17691000" />
     </task>
     <servers />
   </component>
@@ -234,8 +223,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/java/dev/rmiller/dashamaps/DashaMapTest.java</url>
-          <line>55</line>
+          <line>57</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/dev/rmiller/dashamaps/TestWordList.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
